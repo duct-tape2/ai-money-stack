@@ -1,0 +1,27 @@
+PROPRIETARY LICENSE - AI Money Stack
+
+Copyright (c) 2026 @duct-tape2
+
+The contents of this repository fall under two distinct licensing tiers:
+
+## Tier 1: Free Tier (this repository, public files)
+The README.md, demo.sh, and examples/ directory are released under the MIT License:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this free-tier portion, to use, copy, and modify, subject to the condition
+  that this notice be included in all copies.
+
+## Tier 2: Paid Bundle (BUNDLE.zip - $39 / 35,000원 / $25 USD)
+The full bundle contents (Obsidian Revenue Scout CLI full source, Idea Forge PWA,
+PR Review Agent Lite, and all reference packets) are delivered separately upon
+purchase and are licensed under the following terms:
+
+  - Personal use by the purchaser is permitted
+  - Modification for personal/internal use is permitted
+  - Redistribution, resale, or sharing the BUNDLE.zip contents publicly is NOT permitted
+  - Excerpting portions for educational reference is permitted with attribution
+
+## Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR LIABILITY ARISING FROM USE OF THE
+SOFTWARE.
