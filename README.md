@@ -34,19 +34,11 @@ This runs the Obsidian Revenue Scout's demo command against a fixture vault and 
 
 ## Get The Full Bundle ($39)
 
-Three options (KR users: Toss/계좌이체 fastest):
+Three options:
 
-### Option 1 - GitHub Sponsors
-Sponsor at $5+/month tier on https://github.com/sponsors/duct-tape2 - DM your sponsor handle for the BUNDLE.zip link.
+### PayPal / Wise (International)
+Send $25 USD to `sks7178@gmail.com`. DM ZIP link within 5 min.
 
-### Option 2 - Direct Payment (KR)
-Send 35,000원 to Toss `@duct-tape2` (or DM for bank account). DM ZIP link sent within 5 min of confirmed payment.
-
-### Option 3 - PayPal / Wise (International)
-Send $25 USD to `[email-shown-after-DM]`. DM ZIP link sent within 5 min of confirmed payment.
-
-### Option 4 - Polar.sh (Live Soon)
-Polar.sh listing being set up. Link will appear here once live.
 
 ## Why $39 (or 35,000원 / $25)
 
