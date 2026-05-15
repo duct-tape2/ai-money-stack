@@ -1,0 +1,39 @@
+name: Buy Bundle Inquiry
+description: Request payment details to buy the $39 AI Money Stack bundle
+title: "[BUY] - "
+labels: ["buyer-inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for wanting to buy. I'll reply within 24h with payment options that work for your region.
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Preferred payment method
+      options:
+        - Korea (Toss / 계좌이체)
+        - PayPal (international)
+        - Wise (international)
+        - GitHub Sponsors (recurring)
+        - Other - specify in details
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Use case, region, questions about the bundle
+      placeholder: "(optional)"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirm
+      options:
+        - label: I understand the bundle is delivered manually after payment confirmation (within 5 min during KST business hours)
+          required: true

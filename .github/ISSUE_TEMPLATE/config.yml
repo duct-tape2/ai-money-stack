@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the landing page first
+    url: https://duct-tape2.github.io/ai-money-stack/
+    about: Full product details and pricing before opening an issue
+  - name: View Discussions
+    url: https://github.com/duct-tape2/ai-money-stack/discussions
+    about: General questions, feedback, and community
