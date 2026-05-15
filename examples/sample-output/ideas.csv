@@ -1,0 +1,4 @@
+idea_title,source_note_path,monetization_route,estimated_hours,possible_revenue_usd,confirmed_revenue_probability_this_month,agent_can_execute_now,blocker,score,next_action
+Paid OSS Bounty Tracker,notes/paid_bounty.md,paid_oss_bounty,2.5,75.0,0.35,true,none for local MVP,370.0,"verify issue freshness, implement minimal PR, test, submit with one claim"
+Local Skill Router,notes/skill_router.md,CLI_tool,3.0,19.0,0.09,true,none for local MVP,45.0,"build a local CLI with README, demo, tests, and sample output"
+Watch App Paid Beta,notes/blocked_app.md,developer_asset,3.0,19.0,0.05,false,external account/payment/marketplace step,-12.33,do not execute until blocker is cleared
