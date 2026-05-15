@@ -65,6 +65,42 @@ KR / direct payment is $25-equivalent because there's no platform fee (Polar tak
 - Enterprise teams (no SSO, no audit logs)
 - Non-developers (CLI/Python required)
 
+## 한국 중소기업용: Private AI Starter Kit (₩99,000)
+
+> 직원 20-100명 제조/유통/백오피스 운영팀을 위한 로컬 AI 스타터킷
+
+### 문제
+- 사내 문서는 많은데 AI 담당자가 없다
+- 외부 SaaS에 사내 자료를 올리기 어렵다 (보안/규정)
+- 구축 대행을 부르면 수천만원이고 학습/유지보수가 곤란하다
+
+### 솔루션
+이 번들 + Mac mini/Studio 또는 사내 서버 1대로 사내 문서 검색/요약용 로컬 LLM을 빠르게 올린다. 외부 API 키, 토큰, 클라우드 업로드 없음. 모든 데이터가 사내에 머문다.
+
+### 가격
+- **Starter ₩99,000**: 파일형 상품 (5개 도구 + 설치 가이드 + 샘플 문서 3개 + 1시간 영상 가이드)
+- **Team ₩390,000**: 설치 패키지 선주문 (위 + 업종별 customization 30분 + 30일 이메일 지원)
+- **Enterprise**: 별도 문의
+
+### 결제
+1. 계좌이체 또는 Toss로 ₩99,000 입금 (계좌번호는 DM 또는 [Issue 열기](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml))
+2. 입금 확인 후 5분 내 ZIP 링크 + 설치 가이드 영상 DM
+
+### 포함
+- 5개 도구 전체 소스 (un-obfuscated)
+- 로컬 LLM 설치 가이드 (Ollama, llama.cpp 기반)
+- 샘플 문서 3개 (제조/유통/백오피스)
+- 한국어 README + 영상 가이드 (1시간)
+- 14일 환불 보장
+
+### Why It Works
+- Mac Studio/mini는 60-90만원 (또는 이미 보유)
+- 신규 SaaS 구독 0원
+- 사내 데이터 외부 전송 0%
+- 업종별 customization 가이드 포함
+
+---
+
 ## Refund Policy
 
 Full refund within 14 days if the tools don't run on your Mac (M1/M2/M3 or Intel, macOS 13+).
