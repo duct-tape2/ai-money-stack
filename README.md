@@ -32,6 +32,10 @@ cd ai-money-stack
 
 This runs the Obsidian Revenue Scout's demo command against a fixture vault and shows the output format.
 
+Prefer a quick look first? Download the release preview files:
+- [immediate_actions.md](https://github.com/duct-tape2/ai-money-stack/releases/download/v1.0-free-preview/immediate_actions.md)
+- [scan_report.md](https://github.com/duct-tape2/ai-money-stack/releases/download/v1.0-free-preview/scan_report.md)
+
 ## Get The Full Bundle ($25)
 
 Three options:
