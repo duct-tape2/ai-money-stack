@@ -19,9 +19,9 @@
 
 ### Starter ₩99,000 (파일형 상품)
 - 5개 도구 전체 소스 (Python/JS, un-obfuscated)
-- 로컬 LLM 설치 가이드 (Ollama, llama.cpp 기반)
+- 로컬 LLM quickstart 문서 (Ollama 확장용)
 - 샘플 문서 3개 (제조/유통/백오피스)
-- 한국어 README + 1시간 영상 가이드
+- 한국어 README + written setup guide
 - 14일 환불 보장
 
 ### Team ₩390,000 (설치 패키지 + 지원)
@@ -42,16 +42,16 @@
 1. [GitHub Issue 열기](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml)에서 구매 신청 (Region: Korea 선택)
 2. 24시간 내 입금 계좌 정보 DM
 3. ₩99,000 (Starter) 또는 ₩390,000 (Team) 입금
-4. 입금 확인 후 5분 내 ZIP 링크 + 영상 가이드 + 설치 가이드 DM
+4. 입금 확인 후 5분 내 ZIP 링크 + written quickstart DM
 
 ### 해외 (PayPal)
-- $79 USD (Starter) / $299 USD (Team)을 `sks7178@gmail.com`으로 송금
+- $25 USD (AI Money Stack direct bundle) 또는 $79 USD (Private AI Starter Kit)을 PayPal.Me로 송금
 - [GitHub Issue](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml)에 transaction ID 적기
 
 ## 포함된 5개 도구
 
 1. **Obsidian Revenue Scout CLI** (₩40,000 상당)
-   - 9,000개 노트도 1분 내 스캔
+   - 로컬 Markdown/Obsidian 폴더 스캔
    - 수익 가능성 자동 스코어링
    - 즉시 실행 가능한 액션 리스트 출력
 

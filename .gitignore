@@ -1,0 +1,6 @@
+paid_bundle/
+paid_bundle.zip
+tmp/
+__pycache__/
+*.pyc
+.DS_Store

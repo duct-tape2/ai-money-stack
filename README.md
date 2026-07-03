@@ -10,15 +10,15 @@ Every safety gate ("agent must not create accounts", "agent must not enter KYC",
 
 This repo contains:
 - **Free**: demos, samples, README, screenshots for all 5 tools
-- **Paid bundle ($39 USD)**: full source code, ZIP delivery
+- **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, examples, and ZIP delivery
 
 ## What's In The Bundle
 
 | Tool | What It Does | LOC |
 |---|---|---|
-| Obsidian Revenue Scout CLI | Scans an Obsidian vault, scores notes by execution feasibility, outputs ranked action lists | ~700 Python |
-| Idea Forge PWA | Local Progressive Web App for trend-pattern remixing (mobile-installable) | ~400 JS |
-| PR Review Agent Lite | Deterministic PR review generator using `gh` CLI - no LLM API calls | ~250 |
+| Obsidian Revenue Scout CLI | Scans an Obsidian vault, scores notes by execution feasibility, outputs ranked action lists | 379 Python |
+| Idea Forge PWA | Local browser app for trend-pattern remixing | 32 HTML/JS |
+| PR Review Agent Lite | Deterministic PR review generator using `git`/`gh`-style local diffs - no LLM API calls | 42 Python |
 | Obsidian-to-Money Endpoint Packet | Markdown reference mapping note patterns to monetization endpoints | docs |
 | Paid OSS Bounty Quality Checklist | Filter rules built from 100+ rejected bounty candidates | docs |
 
@@ -32,7 +32,7 @@ cd ai-money-stack
 
 This runs the Obsidian Revenue Scout's demo command against a fixture vault and shows the output format.
 
-## Get The Full Bundle ($39)
+## Get The Full Bundle ($25)
 
 Three options:
 
@@ -44,12 +44,10 @@ Then open a buy issue with your PayPal transaction ID: https://github.com/duct-t
 ZIP link is sent within 5 min during KST business hours.
 
 
-## Why $39 (or 35,000원 / $25)
+## Why $25
 
 Individual tool prices: $19 + $29 + $19 + $9 + $9 = $85.
-Bundle is 54% off.
-
-KR / direct payment is $25-equivalent because there's no platform fee (Polar takes 5%).
+Direct bundle is 70% off because there is no marketplace fee, no hosted SaaS, and delivery is manual.
 
 ## Honest Limits
 
@@ -82,19 +80,19 @@ KR / direct payment is $25-equivalent because there's no platform fee (Polar tak
 이 번들 + Mac mini/Studio 또는 사내 서버 1대로 사내 문서 검색/요약용 로컬 LLM을 빠르게 올린다. 외부 API 키, 토큰, 클라우드 업로드 없음. 모든 데이터가 사내에 머문다.
 
 ### 가격
-- **Starter ₩99,000**: 파일형 상품 (5개 도구 + 설치 가이드 + 샘플 문서 3개 + 1시간 영상 가이드)
+- **Starter ₩99,000**: 파일형 상품 (5개 도구 + written quickstart + 샘플 문서 3개)
 - **Team ₩390,000**: 설치 패키지 선주문 (위 + 업종별 customization 30분 + 30일 이메일 지원)
 - **Enterprise**: 별도 문의
 
 ### 결제
 1. 계좌이체 또는 Toss로 ₩99,000 입금 (계좌번호는 DM 또는 [Issue 열기](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml))
-2. 입금 확인 후 5분 내 ZIP 링크 + 설치 가이드 영상 DM
+2. 입금 확인 후 5분 내 ZIP 링크 + written quickstart DM
 
 ### 포함
 - 5개 도구 전체 소스 (un-obfuscated)
-- 로컬 LLM 설치 가이드 (Ollama, llama.cpp 기반)
+- 로컬 LLM quickstart 문서 (Ollama 확장용)
 - 샘플 문서 3개 (제조/유통/백오피스)
-- 한국어 README + 영상 가이드 (1시간)
+- 한국어 README + written setup guide
 - 14일 환불 보장
 
 ### Why It Works
