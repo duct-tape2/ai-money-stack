@@ -37,7 +37,11 @@ This runs the Obsidian Revenue Scout's demo command against a fixture vault and 
 Three options:
 
 ### PayPal / Wise (International)
-Send $25 USD to `sks7178@gmail.com`. DM ZIP link within 5 min.
+Pay direct with PayPal.Me: https://www.paypal.me/sks7178/25
+
+Then open a buy issue with your PayPal transaction ID: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
+
+ZIP link is sent within 5 min during KST business hours.
 
 
 ## Why $39 (or 35,000원 / $25)
