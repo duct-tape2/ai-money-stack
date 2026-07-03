@@ -1,23 +1,43 @@
-name: Buy Bundle Inquiry
-description: Request payment details to buy the $39 AI Money Stack bundle
-title: "[BUY] - "
+name: Buy Bundle Delivery
+description: Send payment confirmation for the AI Money Stack bundle
+title: "[BUY] AI Money Stack - "
 labels: ["buyer-inquiry"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for wanting to buy. I'll reply within 24h with payment options that work for your region.
+        Thanks for buying AI Money Stack.
+
+        PayPal: https://www.paypal.me/sks7178/25
+
+        After payment, submit this issue with your transaction ID. ZIP delivery is within 5 minutes during KST business hours.
 
   - type: dropdown
-    id: region
+    id: product
     attributes:
-      label: Preferred payment method
+      label: Product
       options:
-        - Korea (Toss / 계좌이체)
-        - PayPal (international)
-        - Wise (international)
-        - GitHub Sponsors (recurring)
-        - Other - specify in details
+        - AI Money Stack - PayPal $25
+        - Private AI Starter Kit - KRW 99,000
+        - Team setup preorder - KRW 390,000
+    validations:
+      required: true
+
+  - type: input
+    id: payment_id
+    attributes:
+      label: Payment transaction ID or depositor name
+      description: For PayPal, paste the transaction ID. For Korean bank/Toss, enter depositor name and transfer time.
+      placeholder: "PayPal transaction ID / 입금자명 + 입금시각"
+    validations:
+      required: true
+
+  - type: input
+    id: delivery_email
+    attributes:
+      label: Delivery email
+      description: Where should the ZIP link be sent?
+      placeholder: "you@example.com"
     validations:
       required: true
 
@@ -25,8 +45,8 @@ body:
     id: details
     attributes:
       label: Anything else
-      description: Use case, region, questions about the bundle
-      placeholder: "(optional)"
+      description: Optional notes, region, or delivery constraints
+      placeholder: "Optional"
     validations:
       required: false
 
@@ -35,5 +55,5 @@ body:
     attributes:
       label: Confirm
       options:
-        - label: I understand the bundle is delivered manually after payment confirmation (within 5 min during KST business hours)
+        - label: I understand the bundle is delivered manually after payment confirmation within 5 min during KST business hours.
           required: true
