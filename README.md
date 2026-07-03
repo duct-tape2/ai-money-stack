@@ -39,7 +39,7 @@ Three options:
 ### PayPal / Wise (International)
 Pay direct with PayPal.Me: https://www.paypal.me/sks7178/25
 
-Then open a buy issue with your PayPal transaction ID: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
+Then open a buy issue with public-safe confirmation details, such as payer name/email prefix plus payment time. Do not post the full PayPal transaction ID in a public issue: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
 
 ZIP link is sent within 5 min during KST business hours.
 

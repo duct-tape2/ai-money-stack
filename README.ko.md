@@ -46,7 +46,7 @@
 
 ### 해외 (PayPal)
 - $25 USD (AI Money Stack direct bundle) 또는 $79 USD (Private AI Starter Kit)을 PayPal.Me로 송금
-- [GitHub Issue](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml)에 transaction ID 적기
+- [GitHub Issue](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml)에 공개 가능한 결제 확인 정보만 적기: PayPal 이름/이메일 앞부분 + 결제시각. 전체 거래 ID는 공개하지 마세요.
 
 ## 포함된 5개 도구
 

@@ -10,7 +10,7 @@ body:
 
         PayPal: https://www.paypal.me/sks7178/25
 
-        After payment, submit this issue with your transaction ID. ZIP delivery is within 5 minutes during KST business hours.
+        After payment, submit public-safe confirmation details here. Do not post full transaction IDs in a public issue. ZIP delivery is within 5 minutes during KST business hours.
 
   - type: dropdown
     id: product
@@ -26,18 +26,18 @@ body:
   - type: input
     id: payment_id
     attributes:
-      label: Payment transaction ID or depositor name
-      description: For PayPal, paste the transaction ID. For Korean bank/Toss, enter depositor name and transfer time.
-      placeholder: "PayPal transaction ID / 입금자명 + 입금시각"
+      label: Public-safe payment confirmation
+      description: For PayPal, enter payer name or email prefix plus approximate payment time. For Korean bank/Toss, enter depositor name and transfer time. Do not post full transaction IDs.
+      placeholder: "PayPal payer name/email prefix + time / 입금자명 + 입금시각"
     validations:
       required: true
 
   - type: input
     id: delivery_email
     attributes:
-      label: Delivery email
-      description: Where should the ZIP link be sent?
-      placeholder: "you@example.com"
+      label: Delivery contact
+      description: GitHub issues are public. Enter an email you are comfortable posting publicly, or note another safe contact method.
+      placeholder: "you@example.com / contact note"
     validations:
       required: true
 
