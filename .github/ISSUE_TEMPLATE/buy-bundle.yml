@@ -10,7 +10,9 @@ body:
 
         PayPal: https://www.paypal.me/sks7178/25
 
-        After payment, submit public-safe confirmation details here. Do not post full transaction IDs in a public issue. ZIP delivery is within 5 minutes during KST business hours.
+        For the private path, email sks7178@gmail.com with payer name/email prefix, payment time, and delivery email.
+
+        Use this public issue only if you are comfortable posting public-safe confirmation details. Do not post full transaction IDs in a public issue. ZIP delivery is within 5 minutes during KST business hours.
 
   - type: dropdown
     id: product
@@ -27,8 +29,8 @@ body:
     id: payment_id
     attributes:
       label: Public-safe payment confirmation
-      description: For PayPal, enter payer name or email prefix plus approximate payment time. For Korean bank/Toss, enter depositor name and transfer time. Do not post full transaction IDs.
-      placeholder: "PayPal payer name/email prefix + time / 입금자명 + 입금시각"
+      description: For PayPal, enter payer name or email prefix plus approximate payment time. For Korean bank/Toss, enter depositor name and transfer time. If you emailed privately, write "email sent" plus payment time. Do not post full transaction IDs.
+      placeholder: "PayPal payer name/email prefix + time / email sent + time / 입금자명 + 입금시각"
     validations:
       required: true
 
@@ -36,8 +38,8 @@ body:
     id: delivery_email
     attributes:
       label: Delivery contact
-      description: GitHub issues are public. Enter an email you are comfortable posting publicly, or note another safe contact method.
-      placeholder: "you@example.com / contact note"
+      description: GitHub issues are public. Enter an email you are comfortable posting publicly, or write "sent by email" if you emailed delivery details to sks7178@gmail.com.
+      placeholder: "you@example.com / sent by email"
     validations:
       required: true
 

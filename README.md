@@ -43,7 +43,9 @@ Three options:
 ### PayPal / Wise (International)
 Pay direct with PayPal.Me: https://www.paypal.me/sks7178/25
 
-Then open a buy issue with public-safe confirmation details, such as payer name/email prefix plus payment time. Do not post the full PayPal transaction ID in a public issue: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
+Then email `sks7178@gmail.com` with payer name/email prefix, payment time, and the email address where you want the ZIP delivered.
+
+If you prefer GitHub, open a buy issue with public-safe confirmation details only. Do not post the full PayPal transaction ID in a public issue: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
 
 ZIP link is sent within 5 min during KST business hours.
 
@@ -89,8 +91,9 @@ Direct bundle is 70% off because there is no marketplace fee, no hosted SaaS, an
 - **Enterprise**: 별도 문의
 
 ### 결제
-1. 계좌이체 또는 Toss로 ₩99,000 입금 (계좌번호는 DM 또는 [Issue 열기](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml))
-2. 입금 확인 후 5분 내 ZIP 링크 + written quickstart DM
+1. 계좌이체 또는 Toss로 ₩99,000 입금 (계좌번호는 이메일 `sks7178@gmail.com` 또는 [Issue 열기](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml))
+2. 이메일로 입금자명, 입금시각, 배송받을 이메일을 보내기
+3. 입금 확인 후 5분 내 ZIP 링크 + written quickstart 발송
 
 ### 포함
 - 5개 도구 전체 소스 (un-obfuscated)
@@ -113,7 +116,7 @@ Full refund within 14 days if the tools don't run on your Mac (M1/M2/M3 or Intel
 
 ## Contact
 
-Open an issue, or DM [@duct-tape2](https://github.com/duct-tape2) on GitHub.
+Email `sks7178@gmail.com`, open an issue, or DM [@duct-tape2](https://github.com/duct-tape2) on GitHub.
 
 ---
 
