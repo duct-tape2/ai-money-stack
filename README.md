@@ -13,6 +13,9 @@ This repo contains:
 - **Free**: `storefront_checker.py` to audit buyer-readiness on any small product page
 - **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, examples, and ZIP delivery
 
+Direct checkout for AI Money Stack and all current offers:
+https://duct-tape2.github.io/buy/
+
 ## What's In The Bundle
 
 | Tool | What It Does | LOC |
