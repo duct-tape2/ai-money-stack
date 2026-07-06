@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Direct checkout for all offers
+    url: https://duct-tape2.github.io/buy/
+    about: Pay for products, reviews, or setup services from one page.
   - name: Read the landing page first
     url: https://duct-tape2.github.io/ai-money-stack/
     about: Full product details and pricing before opening an issue
