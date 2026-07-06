@@ -49,6 +49,21 @@ If you prefer GitHub, open a buy issue with public-safe confirmation details onl
 
 ZIP link is sent within 5 min during KST business hours.
 
+## Done-For-You Setup ($99)
+
+Want this same buyer-ready setup for your own GitHub repo or small digital product?
+
+I can turn one existing repo/product into a simple sales page with:
+
+- GitHub Pages landing copy
+- payment CTA and public-safe buyer inquiry flow
+- free preview/sample asset
+- README polish
+- delivery checklist
+- link and release sanity check
+
+Fixed price: **$99 USD** for one repo/product.  
+Email `sks7178@gmail.com` with your repo URL and the words `repo-to-revenue setup`.
 
 ## Why $25
 
