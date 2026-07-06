@@ -1,0 +1,82 @@
+name: Repo-to-Revenue Setup Inquiry
+description: Request the $99 GitHub Pages sales-page setup for one repo or small digital product
+title: "[SERVICE] Repo-to-Revenue Setup - "
+labels: ["service-inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the $99 Repo-to-Revenue setup.
+
+        This is for one existing GitHub repo or small digital product. The deliverable is a buyer-ready public page and supporting copy, not guaranteed sales.
+
+        Public issues are visible to everyone. Do not post private credentials, payment details, customer data, secrets, or confidential business information. If you need privacy, email sks7178@gmail.com with the subject `repo-to-revenue setup`.
+
+  - type: input
+    id: repo_or_product_url
+    attributes:
+      label: Repo or product URL
+      description: Public URL only. If the repo/product is private, write "private - emailed details" and email the details instead.
+      placeholder: "https://github.com/yourname/your-repo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: buyer
+    attributes:
+      label: Who is the buyer?
+      description: Describe the buyer in 1-3 sentences.
+      placeholder: "Example: Solo developers who have a useful CLI but no sales page."
+    validations:
+      required: true
+
+  - type: textarea
+    id: paid_deliverable
+    attributes:
+      label: What is the paid deliverable?
+      description: Describe the ZIP, template, deck, script, course, service, or file buyers receive.
+      placeholder: "Example: A ZIP containing source code, README, demo data, and setup checklist."
+    validations:
+      required: true
+
+  - type: input
+    id: target_price
+    attributes:
+      label: Price to test
+      description: Enter the first price you want to try.
+      placeholder: "$29 / $49 / $99"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: payment_path
+    attributes:
+      label: Payment path
+      options:
+        - Payhip / Gumroad / storefront
+        - PayPal / Wise manual delivery
+        - GitHub Sponsors / Polar
+        - Not decided yet
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sample_asset
+    attributes:
+      label: Free sample or preview
+      options:
+        - Already exists
+        - Please create one
+        - Not needed
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: I understand this setup does not include account creation, KYC, tax/payment setup, cold outreach, or guaranteed sales.
+          required: true
+        - label: This request does not involve security/vulnerability/exploit/bypass/jailbreak work.
+          required: true

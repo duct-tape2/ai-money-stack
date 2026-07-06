@@ -3,6 +3,9 @@ contact_links:
   - name: Read the landing page first
     url: https://duct-tape2.github.io/ai-money-stack/
     about: Full product details and pricing before opening an issue
+  - name: Private Repo-to-Revenue inquiry
+    url: mailto:sks7178@gmail.com?subject=repo-to-revenue%20setup
+    about: Use email instead of a public issue if the repo or product details are private
   - name: View Discussions
     url: https://github.com/duct-tape2/ai-money-stack/discussions
     about: General questions, feedback, and community

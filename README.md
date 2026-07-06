@@ -63,7 +63,10 @@ I can turn one existing repo/product into a simple sales page with:
 - link and release sanity check
 
 Fixed price: **$99 USD** for one repo/product.  
-Email `sks7178@gmail.com` with your repo URL and the words `repo-to-revenue setup`.
+Open a public-safe inquiry:
+https://github.com/duct-tape2/ai-money-stack/issues/new?template=repo-to-revenue-setup.yml
+
+If the repo/product is private, email `sks7178@gmail.com` with your repo URL and the words `repo-to-revenue setup`.
 
 ## Why $25
 
