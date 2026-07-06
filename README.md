@@ -91,6 +91,7 @@ Fixed price: **$99 USD** for one repo/product.
 - Service page: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
 - Ready to book directly: https://www.paypal.me/sks7178/99
 - Open a public-safe inquiry: https://github.com/duct-tape2/ai-money-stack/issues/new?template=repo-to-revenue-setup.yml
+- Booking terms: refund if I cannot deliver the scoped setup; one small correction pass within 7 days after delivery.
 
 If the repo/product is private, email `sks7178@gmail.com` with your repo URL and the words `repo-to-revenue setup`.
 
