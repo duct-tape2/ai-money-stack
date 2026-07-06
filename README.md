@@ -60,6 +60,11 @@ It checks the signals that make a tiny digital-product page safer to buy from:
 
 If the report has `FAIL` or `WARN` items and you want me to fix the page for you, use the $99 repo-to-revenue setup below.
 
+If you want to fix it yourself first, use the $19 DIY kit:
+
+- GitHub Pages Storefront Starter: https://duct-tape2.github.io/storefront-starter/
+- Free sample checklist: https://duct-tape2.github.io/storefront-starter/free-checklist.md?sample=1
+
 ## Get The Full Bundle ($25)
 
 Three options:
