@@ -10,6 +10,7 @@ Every safety gate ("agent must not create accounts", "agent must not enter KYC",
 
 This repo contains:
 - **Free**: demos, samples, README, screenshots for all 5 tools
+- **Free**: `storefront_checker.py` to audit buyer-readiness on any small product page
 - **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, examples, and ZIP delivery
 
 ## What's In The Bundle
@@ -35,6 +36,29 @@ This runs the Obsidian Revenue Scout's demo command against a fixture vault and 
 Prefer a quick look first? Download the release preview files:
 - [immediate_actions.md](https://github.com/duct-tape2/ai-money-stack/releases/download/v1.0-free-preview/immediate_actions.md)
 - [scan_report.md](https://github.com/duct-tape2/ai-money-stack/releases/download/v1.0-free-preview/scan_report.md)
+
+## Free Storefront Checker
+
+Before paying for the bundle or the done-for-you service, run the free checker against your own product page:
+
+```bash
+python3 storefront_checker.py https://yourname.github.io/your-product/
+```
+
+Sample report: [storefront_check_ai_money_stack.md](examples/sample-output/storefront_check_ai_money_stack.md)
+
+It checks the signals that make a tiny digital-product page safer to buy from:
+
+- page HTTP status
+- title and description
+- social card image
+- payment link
+- support email
+- free sample or preview link
+- refund/support language
+- public-safe buyer contact path
+
+If the report has `FAIL` or `WARN` items and you want me to fix the page for you, use the $99 repo-to-revenue setup below.
 
 ## Get The Full Bundle ($25)
 
