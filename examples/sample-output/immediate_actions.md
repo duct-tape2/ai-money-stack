@@ -30,6 +30,8 @@
   https://www.paypal.me/sks7178/25
 - See all current offers and direct checkout links:
   https://duct-tape2.github.io/buy/
+- If this free preview helped and you do not need the paid bundle yet, tip $5:
+  https://www.paypal.me/sks7178/5
 - View this sample output in context:
   https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
 - Book the done-for-you repo-to-revenue setup ($99):
