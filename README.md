@@ -16,6 +16,10 @@ This repo contains:
 Direct checkout for AI Money Stack and all current offers:
 https://duct-tape2.github.io/buy/
 
+Bundle option:
+Repo-to-Revenue Launch Bundle ($39) includes AI Money Stack plus GitHub Pages Storefront Starter.
+https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
+
 ## What's In The Bundle
 
 | Tool | What It Does | LOC |
@@ -77,6 +81,9 @@ Three options:
 
 ### PayPal / Wise (International)
 Pay direct with PayPal.Me: https://www.paypal.me/sks7178/25
+
+If you also want the GitHub Pages Storefront Starter kit, use the $39 launch bundle instead:
+https://www.paypal.me/sks7178/39
 
 Then email `sks7178@gmail.com` with payer name/email prefix, payment time, and the email address where you want the ZIP delivered.
 
