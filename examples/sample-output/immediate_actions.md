@@ -32,6 +32,8 @@
   https://duct-tape2.github.io/buy/
 - Add static PayPal checkout to a small product page:
   https://duct-tape2.github.io/guides/paypal-static-storefront/
+- Generate a PayPal button, delivery email note, and HTML checkout block:
+  https://duct-tape2.github.io/tools/paypal-button-builder/
 - If this free preview helped and you do not need the paid bundle yet, tip $5:
   https://www.paypal.me/sks7178/5
 - View this sample output in context:

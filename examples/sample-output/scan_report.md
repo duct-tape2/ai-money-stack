@@ -35,6 +35,7 @@ This preview shows the kind of output the local scanner can produce. The paid bu
 - Direct checkout for all offers: https://duct-tape2.github.io/buy/
 - If this free preview helped, tip $5: https://www.paypal.me/sks7178/5
 - Static PayPal checkout guide: https://duct-tape2.github.io/guides/paypal-static-storefront/
+- PayPal button builder: https://duct-tape2.github.io/tools/paypal-button-builder/
 - Repo-to-Revenue Launch Bundle ($39): https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
 - Buy the $39 launch bundle: https://www.paypal.me/sks7178/39
 - Buy AI Money Stack ($25): https://www.paypal.me/sks7178/25

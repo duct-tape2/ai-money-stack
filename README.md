@@ -75,6 +75,7 @@ If you want to fix it yourself first, use the $19 DIY kit:
 
 - Use the free GitHub template: https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2
 - Add static PayPal checkout safely: https://duct-tape2.github.io/guides/paypal-static-storefront/
+- Generate a PayPal button, delivery email note, and HTML checkout block: https://duct-tape2.github.io/tools/paypal-button-builder/
 - Request public-safe storefront feedback: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
 - GitHub Pages Storefront Starter: https://duct-tape2.github.io/storefront-starter/
 - Free sample checklist: https://duct-tape2.github.io/storefront-starter/free-checklist.md?sample=1
