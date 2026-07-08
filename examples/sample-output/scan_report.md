@@ -26,3 +26,17 @@
 - score: -22.1
 - next_action: do not execute until blocker is cleared
 - blocker: external account/payment/marketplace step
+
+## Paid Next Steps
+
+This preview shows the kind of output the local scanner can produce. The paid bundle includes the runnable scanner, templates, case studies, and buyer-ready packaging.
+
+- AI Money Stack product page: https://duct-tape2.github.io/ai-money-stack/
+- Direct checkout for all offers: https://duct-tape2.github.io/buy/
+- Buy AI Money Stack ($25): https://www.paypal.me/sks7178/25
+- Live sample output preview: https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
+- Done-for-you repo-to-revenue setup ($99): https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+
+After payment, email `sks7178@gmail.com` with payer name/email prefix, approximate payment time, and delivery email.
+
+Do not post private payment details, full transaction IDs, private files, customer data, passwords, API keys, or private URLs in public issues.
