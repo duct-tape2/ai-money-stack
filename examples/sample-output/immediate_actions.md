@@ -30,6 +30,8 @@
   https://www.paypal.me/sks7178/25
 - See all current offers and direct checkout links:
   https://duct-tape2.github.io/buy/
+- Add static PayPal checkout to a small product page:
+  https://duct-tape2.github.io/guides/paypal-static-storefront/
 - If this free preview helped and you do not need the paid bundle yet, tip $5:
   https://www.paypal.me/sks7178/5
 - View this sample output in context:
