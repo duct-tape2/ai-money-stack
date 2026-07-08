@@ -33,6 +33,8 @@ This preview shows the kind of output the local scanner can produce. The paid bu
 
 - AI Money Stack product page: https://duct-tape2.github.io/ai-money-stack/
 - Direct checkout for all offers: https://duct-tape2.github.io/buy/
+- Repo-to-Revenue Launch Bundle ($39): https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
+- Buy the $39 launch bundle: https://www.paypal.me/sks7178/39
 - Buy AI Money Stack ($25): https://www.paypal.me/sks7178/25
 - Live sample output preview: https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
 - Done-for-you repo-to-revenue setup ($99): https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/

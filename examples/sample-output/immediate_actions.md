@@ -22,6 +22,10 @@
 
 ## Turn This Into Revenue
 
+- Bundle this with GitHub Pages Storefront Starter ($39):
+  https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
+- Buy the $39 launch bundle:
+  https://www.paypal.me/sks7178/39
 - Buy the full AI Money Stack bundle ($25):
   https://www.paypal.me/sks7178/25
 - See all current offers and direct checkout links:
