@@ -14,6 +14,8 @@ body:
 
         Use this public issue only if you are comfortable posting public-safe confirmation details. Do not post full transaction IDs in a public issue. ZIP delivery is within 5 minutes during KST business hours.
 
+        Refund/support: 14-day refund if the delivered ZIP cannot be opened, the local tools do not run on supported macOS versions, or a listed deliverable is missing. Use email for private payment or delivery details.
+
   - type: dropdown
     id: product
     attributes:
@@ -58,4 +60,6 @@ body:
       label: Confirm
       options:
         - label: I understand the bundle is delivered manually after payment confirmation within 5 min during KST business hours.
+          required: true
+        - label: I understand support/refund requests should be sent by email if they include private payment or delivery details.
           required: true
