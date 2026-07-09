@@ -36,6 +36,12 @@
   https://duct-tape2.github.io/tools/static-storefront-builder/
 - Generate a PayPal button, delivery email note, and HTML checkout block:
   https://duct-tape2.github.io/tools/paypal-button-builder/
+- Preview a $49 storefront review sample report:
+  https://duct-tape2.github.io/examples/storefront-review-sample/
+- PayPal $49 storefront review checkout:
+  https://www.paypal.me/sks7178/49
+- Public-safe storefront review request:
+  https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - If this free preview helped and you do not need the paid bundle yet, tip $5:
   https://www.paypal.me/sks7178/5
 - View this sample output in context:
