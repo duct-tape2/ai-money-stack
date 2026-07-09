@@ -19,6 +19,7 @@
 
 ### Starter ₩99,000 (파일형 상품)
 - 5개 도구 전체 소스 (Python/JS, un-obfuscated)
+- 안전 수익화 daily routine 문서
 - 로컬 LLM quickstart 문서 (Ollama 확장용)
 - 샘플 문서 3개 (제조/유통/백오피스)
 - 한국어 README + written setup guide
@@ -48,7 +49,7 @@
 - $25 USD (AI Money Stack direct bundle) 또는 $79 USD (Private AI Starter Kit)을 PayPal.Me로 송금
 - [GitHub Issue](https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml)에 공개 가능한 결제 확인 정보만 적기: PayPal 이름/이메일 앞부분 + 결제시각. 전체 거래 ID는 공개하지 마세요.
 
-## 포함된 5개 도구
+## 포함된 5개 도구 + 루틴
 
 1. **Obsidian Revenue Scout CLI** (₩40,000 상당)
    - 로컬 Markdown/Obsidian 폴더 스캔
@@ -73,9 +74,14 @@
    - 100+ 거절 후보 분석 기반
    - 시간 낭비 방지 룰
 
+6. **Safe Daily Revenue Routine** (포함)
+   - 실제 결제/문의/claim 신호를 먼저 확인하는 20분 루프
+   - 계정/KYC/룰 승인 게이트를 명확히 멈추는 운영 기준
+   - 보안/취약점/우회/스팸/가짜리뷰/개인데이터 작업 제외 규칙
+
 ## 왜 ₩99,000이 합리적인가
 
-- 개별 도구 합계: ₩140,000
+- 개별 도구 합계: ₩140,000 + 루틴 문서
 - 번들 ₩99,000 = 29% 할인
 - 시간 단축: 사내 스크래치 빌드 = 20-40시간 = ₩2,000,000+ 인건비
 - 즉시 실행 가능: 다운로드 후 1시간 내 데모 가능

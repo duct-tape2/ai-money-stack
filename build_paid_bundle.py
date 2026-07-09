@@ -153,6 +153,115 @@ python3 tools/obsidian_revenue_scout.py --vault examples/fixture_vault --out exa
 """
 
 
+SAFE_DAILY_REVENUE_ROUTINE = """# Safe Daily Revenue Routine
+
+Use this when you want an AI coding agent to keep moving toward legitimate
+revenue without drifting into unsafe, fake, or account-gated work.
+
+## Safety Boundary
+
+Allowed:
+
+- existing product payment and delivery checks
+- buyer inquiry, support, refund, and fulfillment workflows
+- owned product pages, README updates, releases, store listings, and docs
+- non-security open-source docs, examples, tests, or feature contributions
+- public prize or challenge scouting with no paid entry or staking
+- account-gated drafts and artifacts that stop before final submission
+
+Excluded:
+
+- cybersecurity, vulnerability, exploit, bypass, jailbreak, malware, CTF, or
+  credential work
+- spam, fake reviews, fake engagement, cold mass outreach, scraped personal data,
+  or ToS-hostile automation
+- paid-entry gambling, staking, trading contests, or anything that requires
+  depositing funds to qualify
+- account creation, KYC, tax, banking, payout setup, or final submission without
+  the account owner present
+
+## Daily 20-Minute Loop
+
+1. Cash signals first.
+   - Check buyer/support issues, email-note queues, platform order dashboards,
+     payment notifications, paid review requests, and service inquiries.
+   - If a buyer exists, fulfillment beats all research.
+
+2. Existing claim gates second.
+   - Recheck already-earned or already-started claims.
+   - Record exact blocker: maintainer approval, merge required, platform login,
+     KYC, payout threshold, or no response.
+
+3. Storefront health third.
+   - Verify public product pages, direct checkout links, sample links, refund copy,
+     support email, and delivery instructions.
+   - Fix only gaps that can plausibly reduce buyer hesitation.
+
+4. One accountless money action.
+   - Improve an existing product, add a useful sample, update a high-intent README,
+     refresh a release note, prepare upload copy, or package a buyer-ready artifact.
+   - Avoid adding new products if the store-upload queue is already blocked.
+
+5. Ten-minute prize or bounty sweep last.
+   - Accept only safe, non-security, no-fee, public-rule opportunities.
+   - Stop at a rules memo, baseline artifact, or draft when login, rules
+     acceptance, KYC, paid compute, or final submission is required.
+
+## Decision Matrix
+
+| Signal | Action | Stop Condition |
+|---|---|---|
+| Confirmed payment or buyer inquiry | Fulfill, reply, or request missing delivery detail | Buyer is served or needs account-owner action |
+| Existing bounty/claim changed | Capture evidence and claim if account gate is open | Login, maintainer approval, merge, or KYC required |
+| Product page has broken checkout/sample/support | Patch and redeploy | Public verification passes |
+| Product page works but store listing is not uploaded | Reduce upload friction | Login gate remains |
+| New public prize appears safe | Prepare one artifact | Rules/account/final-submit gate reached |
+| New bounty is security-adjacent or crowded | Reject and document why | No code written |
+
+## Agent Prompt Template
+
+```text
+Continue safe/legal revenue work only.
+Exclude cybersecurity, vulnerability, exploit, bypass, jailbreak, spam, fake
+reviews, private-data scraping, paid-entry gambling, staking, and credential work.
+
+First check real money signals:
+- buyer/support issues
+- payment/order notes
+- existing bounty/claim status
+- product page health
+
+Then do one accountless action that improves an existing checkout, delivery,
+store upload, sample, README, or release path. If all useful actions are blocked
+by login/KYC/rules/final-submit gates, prepare one safe artifact and report the
+exact blocker.
+```
+
+## Report Template
+
+```text
+Date:
+Confirmed revenue:
+New paid leads:
+Claims changed:
+Account gates:
+Product pages checked:
+One accountless money action:
+Files changed:
+Public verification:
+Next human action:
+Next agent action:
+```
+
+## Practical Rule
+
+The agent is useful when it compresses the distance between a real buyer and a
+deliverable. If the work does not improve discovery, trust, checkout, upload,
+fulfillment, support, or an already-identified safe claim, stop and return to
+the cash signals.
+"""
+
+
 README = """# AI Money Stack Paid Bundle
 
 Included:
@@ -163,6 +272,7 @@ Included:
 - `docs/obsidian_to_money_endpoint_packet.md` - endpoint mapping reference.
 - `docs/paid_oss_bounty_quality_checklist.md` - bounty filter checklist.
 - `docs/local_llm_quickstart.md` - written local setup guide.
+- `docs/safe_daily_revenue_routine.md` - daily safe revenue operating loop.
 - `examples/` - fixture vault and generated sample outputs.
 - `case-study/` - field notes from failed and live revenue attempts.
 
@@ -193,6 +303,7 @@ def build() -> None:
     write_text(BUNDLE_DIR / "docs" / "obsidian_to_money_endpoint_packet.md", ENDPOINT_PACKET)
     write_text(BUNDLE_DIR / "docs" / "paid_oss_bounty_quality_checklist.md", BOUNTY_CHECKLIST)
     write_text(BUNDLE_DIR / "docs" / "local_llm_quickstart.md", LOCAL_LLM_QUICKSTART)
+    write_text(BUNDLE_DIR / "docs" / "safe_daily_revenue_routine.md", SAFE_DAILY_REVENUE_ROUTINE)
     copy_tree(ROOT / "examples", BUNDLE_DIR / "examples")
     copy_tree(ROOT / "case-study", BUNDLE_DIR / "case-study")
     shutil.copy2(ROOT / "LICENSE", BUNDLE_DIR / "LICENSE")

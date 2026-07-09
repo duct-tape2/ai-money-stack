@@ -1,17 +1,17 @@
 # AI Money Stack for Indie Builders
 
-5 local-first tools for indie builders who use AI agents like Codex and Claude Code.
+5 local-first tools plus a safe daily revenue routine for indie builders who use AI agents like Codex and Claude Code.
 
 ## The Backstory
 
 I asked an AI coding agent to autonomously generate revenue for 3 days. It made $0.
 
-Every safety gate ("agent must not create accounts", "agent must not enter KYC", "agent must not cold email") blocked the last 5% of every revenue chain. But the agent DID finish 5 working tools.
+Every safety gate ("agent must not create accounts", "agent must not enter KYC", "agent must not cold email") blocked the last 5% of every revenue chain. But the agent DID finish 5 working tools and a repeatable safe revenue operating loop.
 
 This repo contains:
 - **Free**: demos, samples, README, screenshots for all 5 tools
 - **Free**: `storefront_checker.py` to audit buyer-readiness on any small product page
-- **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, examples, and ZIP delivery
+- **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, daily routine, examples, and ZIP delivery
 
 Direct checkout for AI Money Stack and all current offers:
 https://duct-tape2.github.io/buy/
@@ -35,6 +35,7 @@ https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
 | PR Review Agent Lite | Deterministic PR review generator using `git`/`gh`-style local diffs - no LLM API calls | 42 Python |
 | Obsidian-to-Money Endpoint Packet | Markdown reference mapping note patterns to monetization endpoints | docs |
 | Paid OSS Bounty Quality Checklist | Filter rules built from 100+ rejected bounty candidates | docs |
+| Safe Daily Revenue Routine | A 20-minute loop for checking real money signals, account gates, product health, and safe prize/bounty scans without drifting into unsafe work | docs |
 
 ## Free Demo
 
@@ -124,7 +125,7 @@ If the repo/product is private, email `sks7178@gmail.com` with your repo URL and
 
 ## Why $25
 
-Individual tool prices: $19 + $29 + $19 + $9 + $9 = $85.
+Individual tool prices: $19 + $29 + $19 + $9 + $9 plus the routine template = $85+.
 Direct bundle is 70% off because there is no marketplace fee, no hosted SaaS, and delivery is manual.
 
 ## Honest Limits
