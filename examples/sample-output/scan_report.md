@@ -33,16 +33,16 @@ This preview shows the kind of output the local scanner can produce. The paid bu
 
 - AI Money Stack product page: https://duct-tape2.github.io/ai-money-stack/
 - Direct checkout for all offers: https://duct-tape2.github.io/buy/
-- If this free preview helped, tip $5: https://www.paypal.me/sks7178/5
+- If this free preview helped, tip $5: https://payhip.com/b/0LKEF
 - Static PayPal checkout guide: https://duct-tape2.github.io/guides/paypal-static-storefront/
 - Static storefront page builder: https://duct-tape2.github.io/tools/static-storefront-builder/
 - PayPal button builder: https://duct-tape2.github.io/tools/paypal-button-builder/
 - Storefront Review sample report: https://duct-tape2.github.io/examples/storefront-review-sample/
-- PayPal $49 storefront review checkout: https://www.paypal.me/sks7178/49
+- Request the $49 storefront review first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Public-safe storefront review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Repo-to-Revenue Launch Bundle ($39): https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
-- Buy the $39 launch bundle: https://www.paypal.me/sks7178/39
-- Buy AI Money Stack ($25): https://www.paypal.me/sks7178/25
+- Buy the $39 launch bundle: https://payhip.com/b/qHsNi
+- Buy AI Money Stack ($25): https://payhip.com/b/RJ63W
 - Live sample output preview: https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
 - Done-for-you repo-to-revenue setup ($99): https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
 

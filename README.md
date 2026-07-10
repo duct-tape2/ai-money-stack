@@ -20,7 +20,7 @@ Not sure what to buy? Use the offer chooser:
 https://duct-tape2.github.io/tools/offer-chooser/
 
 If the free preview or checker helped and you do not need the paid bundle yet, a $5 thank-you tip is here:
-https://www.paypal.me/sks7178/5
+https://payhip.com/b/0LKEF
 
 Bundle option:
 Repo-to-Revenue Launch Bundle ($39) includes AI Money Stack plus GitHub Pages Storefront Starter.
