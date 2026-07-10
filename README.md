@@ -117,7 +117,7 @@ I can turn one existing repo/product into a simple sales page with:
 Fixed price: **$99 USD** for one repo/product.
 
 - Service page: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
-- Ready to book directly: https://www.paypal.me/sks7178/99
+- Ready to book directly: https://payhip.com/b/ZOl1I
 - Open a public-safe inquiry: https://github.com/duct-tape2/ai-money-stack/issues/new?template=repo-to-revenue-setup.yml
 - Booking terms: refund if I cannot deliver the scoped setup; one small correction pass within 7 days after delivery.
 
