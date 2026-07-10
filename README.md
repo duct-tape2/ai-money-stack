@@ -89,17 +89,21 @@ If you want to fix it yourself first, use the $19 DIY kit:
 
 Three options:
 
-### PayPal / Wise (International)
-Pay direct with PayPal.Me: https://www.paypal.me/sks7178/25
+### Instant Download Store
+Buy the bundle here: https://payhip.com/b/RJ63W
 
-If you also want the GitHub Pages Storefront Starter kit, use the $39 launch bundle instead:
-https://www.paypal.me/sks7178/39
+### Payment and delivery
+Payhip handles payment and ZIP delivery automatically. If you also want the GitHub Pages Storefront Starter kit, use the $39 launch bundle instead:
+https://payhip.com/b/qHsNi
 
-Then email `sks7178@gmail.com` with payer name/email prefix, payment time, and the email address where you want the ZIP delivered.
+The active bundle checkout is:
+https://payhip.com/b/qHsNi
+
+If delivery fails, email `sks7178@gmail.com` with the product name and delivery email. Do not post private payment details in a public issue.
 
 If you prefer GitHub, open a buy issue with public-safe confirmation details only. Do not post the full PayPal transaction ID in a public issue: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
 
-ZIP link is sent within 5 min during KST business hours.
+The Payhip checkout above delivers the ZIP automatically.
 
 ## Done-For-You Setup ($99)
 
