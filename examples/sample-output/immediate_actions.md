@@ -24,11 +24,11 @@
 
 - Bundle this with GitHub Pages Storefront Starter ($39):
   https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
-- Buy the $39 launch bundle:
-  https://payhip.com/b/qHsNi
-- Buy the full AI Money Stack bundle ($25):
-  https://payhip.com/b/RJ63W
-- See all current offers and direct checkout links:
+- Request a confirmed checkout for the $39 launch bundle:
+  https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+- Request a confirmed checkout for AI Money Stack ($25):
+  https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+- See all current offers and checkout status:
   https://duct-tape2.github.io/buy/
 - Add static PayPal checkout to a small product page:
   https://duct-tape2.github.io/guides/paypal-static-storefront/
@@ -42,8 +42,8 @@
   https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Public-safe storefront review request:
   https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
-- If this free preview helped and you do not need the paid bundle yet, tip $5:
-  https://payhip.com/b/0LKEF
+- If this free preview helped, request a confirmed $5 tip checkout:
+  https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 - View this sample output in context:
   https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
 - Book the done-for-you repo-to-revenue setup ($99):

@@ -23,6 +23,12 @@ PAYMENT_HOST_HINTS = (
     "polar.sh",
     "buy.stripe.com",
 )
+CHECKOUT_CONFIRMATION_HINT = "template=paid-inquiry.yml"
+CHECKOUT_PAUSE_COPY = (
+    "payment acceptance is temporarily paused",
+    "confirm a working checkout before paying",
+    "confirmed working checkout before paying",
+)
 
 
 @dataclass(frozen=True)
@@ -200,12 +206,16 @@ def run_checks(url: str, html: str, status: int | None, timeout: int) -> list[Ch
 
     canonical = next((href for rel, href in parser.links if "canonical" in rel), "")
     add_check(checks, bool(canonical), "canonical_url", canonical, "missing canonical link", warn=True)
+    has_payment_link = has_any_href(parser, PAYMENT_HOST_HINTS)
+    has_confirmation_path = has_any_href(parser, (CHECKOUT_CONFIRMATION_HINT,)) and has_any_text(
+        html, CHECKOUT_PAUSE_COPY
+    )
     add_check(
         checks,
-        has_any_href(parser, PAYMENT_HOST_HINTS),
-        "payment_link",
-        "payment link found",
-        "no PayPal/Payhip/Gumroad/Lemon/Polar/Stripe payment link found",
+        has_payment_link or has_confirmation_path,
+        "payment_or_confirmation_path",
+        "payment link found" if has_payment_link else "paused-payment checkout-confirmation path found",
+        "no payment link or explicit paused-payment checkout-confirmation path found",
     )
     add_check(
         checks,
