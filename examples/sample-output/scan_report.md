@@ -32,8 +32,8 @@
 This preview shows the kind of output the local scanner can produce. The paid bundle includes the runnable scanner, templates, case studies, and buyer-ready packaging.
 
 - AI Money Stack product page: https://duct-tape2.github.io/ai-money-stack/
-- Direct checkout for all offers: https://duct-tape2.github.io/buy/
-- If this free preview helped, tip $5: https://payhip.com/b/0LKEF
+- All offers and checkout status: https://duct-tape2.github.io/buy/
+- If this free preview helped, request a confirmed $5 tip checkout: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 - Static PayPal checkout guide: https://duct-tape2.github.io/guides/paypal-static-storefront/
 - Static storefront page builder: https://duct-tape2.github.io/tools/static-storefront-builder/
 - PayPal button builder: https://duct-tape2.github.io/tools/paypal-button-builder/
@@ -41,8 +41,8 @@ This preview shows the kind of output the local scanner can produce. The paid bu
 - Request the $49 storefront review first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Public-safe storefront review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Repo-to-Revenue Launch Bundle ($39): https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
-- Buy the $39 launch bundle: https://payhip.com/b/qHsNi
-- Buy AI Money Stack ($25): https://payhip.com/b/RJ63W
+- Request a confirmed checkout for the $39 launch bundle: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+- Request a confirmed checkout for AI Money Stack ($25): https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 - Live sample output preview: https://duct-tape2.github.io/examples/ai-money-stack-sample-output/
 - Done-for-you repo-to-revenue setup ($99): https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
 

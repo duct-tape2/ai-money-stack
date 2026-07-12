@@ -11,16 +11,18 @@ Every safety gate ("agent must not create accounts", "agent must not enter KYC",
 This repo contains:
 - **Free**: demos, samples, README, screenshots for all 5 tools
 - **Free**: `storefront_checker.py` to audit buyer-readiness on any small product page
-- **Paid bundle ($25 USD direct)**: source code, local PWA, checklists, daily routine, examples, and ZIP delivery
+- **Paid bundle ($25 USD)**: source code, local PWA, checklists, daily routine, examples, and ZIP delivery
 
-Direct checkout for AI Money Stack and all current offers:
+Offer and checkout status for AI Money Stack and all current offers:
 https://duct-tape2.github.io/buy/
 
 Not sure what to buy? Use the offer chooser:
 https://duct-tape2.github.io/tools/offer-chooser/
 
-If the free preview or checker helped and you do not need the paid bundle yet, a $5 thank-you tip is here:
-https://payhip.com/b/0LKEF
+If the free preview or checker helped and you want to leave a $5 thank-you tip, confirm a working checkout first:
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+
+Payment acceptance is temporarily paused while payout settings are restored. Do not pay through an old link; use the inquiry above to confirm a working checkout first.
 
 Bundle option:
 Repo-to-Revenue Launch Bundle ($39) includes AI Money Stack plus GitHub Pages Storefront Starter.
@@ -89,21 +91,21 @@ If you want to fix it yourself first, use the $19 DIY kit:
 
 Three options:
 
-### Instant Download Store
-Buy the bundle here: https://payhip.com/b/RJ63W
+### Checkout Confirmation
+Request a confirmed checkout here: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
 ### Payment and delivery
-Payhip handles payment and ZIP delivery automatically. If you also want the GitHub Pages Storefront Starter kit, use the $39 launch bundle instead:
-https://payhip.com/b/qHsNi
+After a working checkout and payment are confirmed, the ZIP is delivered through the active storefront. If you also want the GitHub Pages Storefront Starter kit, request the $39 launch bundle instead:
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
-The active bundle checkout is:
-https://payhip.com/b/qHsNi
+The bundle checkout-confirmation form is:
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
 If delivery fails, email `sks7178@gmail.com` with the product name and delivery email. Do not post private payment details in a public issue.
 
 If you prefer GitHub, open a buy issue with public-safe confirmation details only. Do not post the full PayPal transaction ID in a public issue: https://github.com/duct-tape2/ai-money-stack/issues/new?template=buy-bundle.yml
 
-The Payhip checkout above delivers the ZIP automatically.
+The confirmed storefront checkout delivers the ZIP automatically.
 
 ## Done-For-You Setup ($99)
 
@@ -121,7 +123,7 @@ I can turn one existing repo/product into a simple sales page with:
 Fixed price: **$99 USD** for one repo/product.
 
 - Service page: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
-- Ready to book directly: https://payhip.com/b/ZOl1I
+- Confirm scope and a working checkout: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 - Open a public-safe inquiry: https://github.com/duct-tape2/ai-money-stack/issues/new?template=repo-to-revenue-setup.yml
 - Booking terms: refund if I cannot deliver the scoped setup; one small correction pass within 7 days after delivery.
 

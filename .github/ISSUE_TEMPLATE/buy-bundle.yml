@@ -1,16 +1,16 @@
 name: AI Money Stack Buyer Help
-description: Ask for public-safe Payhip checkout or delivery support
+description: Ask for public-safe checkout confirmation or delivery support
 title: "[BUY] AI Money Stack - "
 labels: ["buyer-inquiry"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for buying AI Money Stack.
+        Thanks for your interest in AI Money Stack.
 
-        Payhip instant checkout: https://payhip.com/b/RJ63W
+        Checkout confirmation: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
-        Payhip delivers the ZIP automatically. Email sks7178@gmail.com only if checkout or delivery fails.
+        Payment acceptance is temporarily paused. Confirm a working checkout before paying. Delivery begins only after payment is confirmed; email sks7178@gmail.com for private payment or delivery details.
 
         Use this public issue only for public-safe support details. Do not post receipt numbers, screenshots, email addresses, or other payment records.
 
@@ -21,8 +21,8 @@ body:
     attributes:
       label: Product
       options:
-        - AI Money Stack - Payhip $25
-        - Repo-to-Revenue Launch Bundle - Payhip $39
+        - AI Money Stack - $25
+        - Repo-to-Revenue Launch Bundle - $39
     validations:
       required: true
 
@@ -58,7 +58,7 @@ body:
     attributes:
       label: Confirm
       options:
-        - label: I understand Payhip delivers the ZIP automatically after checkout.
+        - label: I understand I must confirm a working checkout before paying and that delivery begins only after confirmed payment.
           required: true
         - label: I understand support/refund requests should be sent by email if they include private payment or delivery details.
           required: true
