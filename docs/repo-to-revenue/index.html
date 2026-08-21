@@ -3,258 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Repo-to-Revenue GitHub Pages Setup - $99</title>
-  <meta name="description" content="I turn one existing GitHub repo or small digital product into a buyer-ready GitHub Pages sales page with payment CTA, preview asset, README polish, and delivery checklist.">
-  <link rel="canonical" href="https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/">
+  <title>GitHub Repo Product Page Service - $99</title>
+  <meta name="description" content="Turn one existing public GitHub repo into a buyer-ready product page for $99.">
+  <meta http-equiv="refresh" content="0; url=https://duct-tape2.github.io/repo-launch/">
+  <link rel="canonical" href="https://duct-tape2.github.io/repo-launch/">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="AI Money Stack">
-  <meta property="og:title" content="Repo-to-Revenue GitHub Pages Setup - $99">
-  <meta property="og:description" content="A fixed-price setup for one existing repo or small digital product: landing copy, GitHub Pages, payment CTA, buyer inquiry flow, preview asset, README polish, and delivery checklist.">
-  <meta property="og:url" content="https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/">
-  <meta property="og:image" content="https://duct-tape2.github.io/ai-money-stack/assets/repo-to-revenue-setup-1600x900.png">
-  <meta property="og:image:width" content="1600">
-  <meta property="og:image:height" content="900">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Repo-to-Revenue GitHub Pages Setup - $99">
-  <meta name="twitter:description" content="Turn one repo or tiny digital product into a buyer-ready GitHub Pages sales flow.">
-  <meta name="twitter:image" content="https://duct-tape2.github.io/ai-money-stack/assets/repo-to-revenue-setup-1600x900.png">
+  <meta property="og:title" content="GitHub Repo Product Page Service - $99">
+  <meta property="og:description" content="Turn one existing public GitHub repo into a buyer-ready product page for $99.">
+  <meta property="og:url" content="https://duct-tape2.github.io/repo-launch/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="GitHub Repo Product Page Service - $99">
+  <meta name="twitter:description" content="Turn one existing public GitHub repo into a buyer-ready product page for $99.">
+  <script>window.location.replace("https://duct-tape2.github.io/repo-launch/");</script>
   <style>
-    * { box-sizing: border-box; }
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f7f8fa;
+      color: #172033;
+    }
     body {
+      min-height: 100vh;
       margin: 0;
-      color: #161616;
-      background: #f6f3ee;
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.55;
+      display: grid;
+      place-items: center;
     }
-    a { color: #155e75; }
-    .hero {
-      min-height: 78vh;
-      display: flex;
-      align-items: flex-end;
-      background:
-        linear-gradient(180deg, rgba(0,0,0,.18), rgba(0,0,0,.78)),
-        url("../assets/repo-to-revenue-setup-1600x900.png") center / cover no-repeat;
-      color: #fff;
-      padding: 42px 22px;
-    }
-    .hero-inner, .wrap {
-      width: min(1040px, 100%);
-      margin: 0 auto;
-    }
-    .eyebrow {
-      margin: 0 0 12px;
-      color: #bae6fd;
-      font-size: 13px;
-      font-weight: 800;
-      text-transform: uppercase;
+    main {
+      width: min(34rem, calc(100% - 3rem));
+      padding: 2rem;
+      background: #fff;
+      border: 1px solid #d9dee8;
+      border-radius: 8px;
+      box-shadow: 0 12px 36px rgb(23 32 51 / 8%);
     }
     h1 {
-      max-width: 820px;
-      margin: 0;
-      font-size: clamp(44px, 7vw, 82px);
-      line-height: .96;
+      margin: 0 0 0.75rem;
+      font-size: 1.5rem;
+      line-height: 1.25;
       letter-spacing: 0;
     }
-    .lead {
-      max-width: 720px;
-      margin: 22px 0 0;
-      color: #e5e7eb;
-      font-size: 20px;
-    }
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 28px 0 0;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 48px;
-      padding: 0 18px;
-      border: 1px solid #fff;
-      border-radius: 6px;
-      color: #111;
-      background: #fff;
-      font-weight: 850;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-    .btn.secondary {
-      color: #fff;
-      background: rgba(255,255,255,.08);
-    }
-    .wrap .btn {
-      color: #fff;
-      background: #111;
-      border-color: #111;
-    }
-    .wrap .btn.secondary {
-      color: #155e75;
-      background: transparent;
-      border-color: #155e75;
-    }
-    .wrap {
-      padding: 34px 22px 56px;
-    }
-    section {
-      padding: 26px 0;
-      border-bottom: 1px solid #ded8cf;
-    }
-    h2 {
-      margin: 0 0 14px;
-      font-size: 26px;
-      line-height: 1.15;
-      letter-spacing: 0;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-    }
-    .item {
-      min-height: 150px;
-      padding: 18px;
-      border: 1px solid #ded8cf;
-      border-radius: 8px;
-      background: #fff;
-    }
-    .item h3 {
-      margin: 0 0 8px;
-      font-size: 18px;
-    }
-    .item p {
+    p {
       margin: 0;
-      color: #525252;
+      line-height: 1.6;
     }
-    .price {
-      font-size: 48px;
-      font-weight: 900;
-      line-height: 1;
-    }
-    .note {
-      color: #525252;
-      max-width: 760px;
-    }
-    code {
-      padding: 2px 6px;
-      border-radius: 4px;
-      background: #ece7df;
-    }
-    ul { padding-left: 20px; }
-    li { margin: 7px 0; }
-    footer {
-      padding: 28px 22px 44px;
-      color: #525252;
-      text-align: center;
-    }
-    @media (max-width: 780px) {
-      .hero { min-height: 82vh; }
-      .grid { grid-template-columns: 1fr; }
-      .btn { width: 100%; }
+    a {
+      color: #075fcc;
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow">Fixed-price productized service</p>
-      <h1>Repo-to-Revenue GitHub Pages Setup</h1>
-      <p class="lead">I turn one existing GitHub repo or small digital product into a buyer-ready page with landing copy, payment CTA, public-safe inquiry flow, preview asset, README polish, and delivery checklist.</p>
-      <div class="actions">
-        <a class="btn" href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml" target="_blank" rel="noopener">Request confirmed checkout - $99</a>
-        <a class="btn secondary" href="mailto:sks7178@gmail.com?subject=Repo-to-Revenue%20setup%20question&amp;body=Public%20repo%20or%20product%20URL:%20%0AQuestion:%20">Email a private question</a>
-        <a class="btn secondary" href="https://github.com/duct-tape2/ai-money-stack/issues/new?template=repo-to-revenue-setup.yml">Open public-safe inquiry</a>
-        <a class="btn secondary" href="https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py">Run free checker first</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="wrap">
-    <section>
-      <h2>What You Get</h2>
-      <div class="grid">
-        <article class="item">
-          <h3>Buyer-Ready Page</h3>
-          <p>One GitHub Pages landing page with clear offer, price, payment path, support contact, and trust copy.</p>
-        </article>
-        <article class="item">
-          <h3>Preview Asset</h3>
-          <p>A public-safe sample, screenshot, report, or small downloadable preview that helps buyers inspect the work before paying.</p>
-        </article>
-        <article class="item">
-          <h3>Delivery Checklist</h3>
-          <p>README polish, buyer inquiry template, delivery notes, refund/support wording, and a final link sanity check.</p>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <h2>How It Works</h2>
-      <ul>
-        <li>Send one repo URL or a small product folder description.</li>
-        <li>I identify the buyer, offer, price, preview asset, and checkout path.</li>
-        <li>I prepare the GitHub Pages page, README edits, issue template, and delivery checklist.</li>
-        <li>You approve the final payment/contact details before publishing.</li>
-      </ul>
-      <p class="note">If your repo or product is private, email <a href="mailto:sks7178@gmail.com">sks7178@gmail.com</a> with the subject <code>repo-to-revenue setup</code>. Do not post private customer data, credentials, or full transaction IDs in public issues.</p>
-    </section>
-
-    <section>
-      <h2>Price</h2>
-      <p class="price">$99 USD</p>
-      <p class="note">Fixed intro price for one existing repo or one small digital product. Submit the public-safe intake and wait for a confirmed working checkout before paying. Work starts only after scope and payment confirmation; never put credentials, payment data, or private files in the public intake form.</p>
-      <div class="actions">
-        <a class="btn" href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml" target="_blank" rel="noopener">Request confirmed checkout - $99</a>
-        <a class="btn secondary" href="mailto:sks7178@gmail.com?subject=Repo-to-Revenue%20setup%20question&amp;body=Public%20repo%20or%20product%20URL:%20%0AQuestion:%20">Email a private question</a>
-        <a class="btn secondary" href="mailto:sks7178@gmail.com?subject=repo-to-revenue%20setup">Email private inquiry</a>
-      </div>
-    </section>
-
-    <section>
-      <h2>Booking Terms</h2>
-      <p class="note">If I cannot deliver the scoped page, README changes, inquiry path, preview asset, and delivery checklist, I refund the payment. After delivery, one small correction pass is included within 7 days for typos, broken links, or mismatched public details.</p>
-    </section>
-
-    <section>
-      <h2>Good Fit</h2>
-      <div class="grid">
-        <article class="item">
-          <h3>Open Source Tools</h3>
-          <p>Small CLIs, templates, docs packs, GitHub Actions, browser tools, or local-first utilities that need a paid support or bundle path.</p>
-        </article>
-        <article class="item">
-          <h3>Digital Products</h3>
-          <p>Anki decks, Notion or Obsidian templates, PDFs, spreadsheets, scripts, mini-courses, and downloadable bundles.</p>
-        </article>
-        <article class="item">
-          <h3>Founder Experiments</h3>
-          <p>Projects that already exist but have no clear landing page, sample, delivery process, or buyer-safe support path.</p>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <h2>Not In Scope</h2>
-      <p class="note">I do not take security, vulnerability, exploit, bypass, jailbreak, spam, credential, scraping-personal-data, fake-review, or automated cold-DM work. I also do not create payment accounts, enter KYC, or handle private credentials.</p>
-    </section>
-
-    <section>
-      <h2>Proof Of Work</h2>
-      <p class="note">The two current product pages pass the free storefront checker with 12 pass / 0 warn / 0 fail after checking page availability, social cards, payment link, support email, preview asset, refund/support terms, and buyer contact path.</p>
-      <ul>
-        <li><a href="https://duct-tape2.github.io/ai-money-stack/">AI Money Stack product page</a></li>
-        <li><a href="https://duct-tape2.github.io/japanese-anki-pack/">Japanese Anki Pack product page</a></li>
-        <li><a href="https://github.com/duct-tape2/ai-money-stack/blob/main/examples/sample-output/storefront_check_ai_money_stack.md">Sample checker report</a></li>
-      </ul>
-    </section>
+  <main>
+    <h1>This service page has moved</h1>
+    <p>Continue to the <a href="https://duct-tape2.github.io/repo-launch/">$99 GitHub Repo Product Page Service</a>.</p>
   </main>
-
-  <footer>
-    Contact: <a href="mailto:sks7178@gmail.com">sks7178@gmail.com</a> - GitHub: <a href="https://github.com/duct-tape2">@duct-tape2</a>
-  </footer>
-  <script src="https://duct-tape2.github.io/assets/checkout-status.js" defer></script>
 </body>
 </html>
